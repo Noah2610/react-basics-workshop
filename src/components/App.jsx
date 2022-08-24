@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Button from "./Button";
 import ShoppingList from "./ShoppingList";
+import Person from "./Person";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <Header title="Hello Props!" />
       <Button />
       <ShoppingList />
+      <Person />
+      <Person />
+      <Person />
     </>
   );
 }
